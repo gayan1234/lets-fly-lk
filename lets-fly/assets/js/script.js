@@ -591,7 +591,7 @@ document.querySelectorAll('.image-container .image img').forEach(image => {
         popupImage.style.display = 'block';
         popupImageContent.querySelector('img').src = image.getAttribute('src');
         popupImageContent.querySelector('.popup-image-description').textContent = description;
-        document.querySelector('.topbar').style.display = 'none';
+        // document.querySelector('.topbar').style.display = 'none';
         document.querySelector('.fixed-top').style.display = 'none';
         // document.querySelector('.navbar-area.is-sticky').style.display = 'none';
     }
@@ -600,7 +600,7 @@ document.querySelectorAll('.image-container .image img').forEach(image => {
 document.querySelector('.popup-image span').onclick = () => {
     const popupImage = document.querySelector('.popup-image');
     popupImage.style.display = 'none';
-    document.querySelector('.topbar').style.display = 'block';
+    // document.querySelector('.topbar').style.display = 'block';
     document.querySelector('.fixed-top').style.display = 'block';
     // document.querySelector('.navbar-area.is-sticky').style.display = 'block';
 }
