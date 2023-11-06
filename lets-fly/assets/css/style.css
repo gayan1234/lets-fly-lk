@@ -5482,6 +5482,11 @@ button:focus, button:active {
   color: #fff;
 }
 
+.destination-card-content .destination-card-header-content h3 {
+  color: #fff;
+}
+
+
 .destination-card-content .destination-price {
   color: #fff;
 }
